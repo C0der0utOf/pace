@@ -1,4 +1,4 @@
-# 🛡️ Policy-as-Code Engine
+# Policy-as-Code Engine
 
 A lightweight **Policy-as-Code Framework** for evaluating security rules using YAML-based policies.
 
@@ -13,7 +13,7 @@ Perfect for CISOs, security architects, and DevSecOps leaders who want to showca
 
 ---
 
-## 🚀 Features
+##  Features
 
 - YAML-based security policies  
 - Simple evaluation engine  
@@ -23,7 +23,7 @@ Perfect for CISOs, security architects, and DevSecOps leaders who want to showca
 
 ---
 
-## 🧩 Example Use Cases
+##  Example Use Cases
 
 - Cloud configuration compliance  
 - DevSecOps enforcement  
@@ -32,10 +32,10 @@ Perfect for CISOs, security architects, and DevSecOps leaders who want to showca
 
 ---
 
-## 📦 Running the Engine
+##  Running the Engine
 
 ```bash
 pip install -r requirements.txt
 python src/engine.py
 
-# pace
+
