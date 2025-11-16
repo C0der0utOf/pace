@@ -1,0 +1,9 @@
+name: Encryption Requirements
+rules:
+  - key: s3_encryption_enabled
+    expected: true
+    description: "S3 buckets must have server-side encryption"
+  - key: kms_key_rotation
+    expected: true
+    description: "KMS keys must have rotation enabled"
+

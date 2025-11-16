@@ -1,0 +1,6 @@
+name: Network Security Standards
+rules:
+  - key: sg_allow_0_0_0_0
+    expected: false
+    description: "Security groups must not allow inbound from 0.0.0.0/0"
+

@@ -1,0 +1,6 @@
+s3_encryption_enabled: true
+kms_key_rotation: true
+mfa_required: true
+unused_credentials_disabled: true
+sg_allow_0_0_0_0: true
+

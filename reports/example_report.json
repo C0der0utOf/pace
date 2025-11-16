@@ -1,0 +1,52 @@
+[
+  {
+    "policy": "Network Security Standards",
+    "results": [
+      {
+        "rule": "Security groups must not allow inbound from 0.0.0.0/0",
+        "key": "sg_allow_0_0_0_0",
+        "expected": false,
+        "actual": true,
+        "passed": false
+      }
+    ]
+  },
+  {
+    "policy": "IAM Security Policies",
+    "results": [
+      {
+        "rule": "All users must have MFA enabled",
+        "key": "mfa_required",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "rule": "Disable unused IAM credentials",
+        "key": "unused_credentials_disabled",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      }
+    ]
+  },
+  {
+    "policy": "Encryption Requirements",
+    "results": [
+      {
+        "rule": "S3 buckets must have server-side encryption",
+        "key": "s3_encryption_enabled",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      },
+      {
+        "rule": "KMS keys must have rotation enabled",
+        "key": "kms_key_rotation",
+        "expected": true,
+        "actual": true,
+        "passed": true
+      }
+    ]
+  }
+]

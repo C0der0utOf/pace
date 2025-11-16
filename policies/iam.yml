@@ -1,0 +1,9 @@
+name: IAM Security Policies
+rules:
+  - key: mfa_required
+    expected: true
+    description: "All users must have MFA enabled"
+  - key: unused_credentials_disabled
+    expected: true
+    description: "Disable unused IAM credentials"
+
